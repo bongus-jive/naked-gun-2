@@ -1,0 +1,11 @@
+{
+  "name" : "realnude2",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "realnude2.lua"
+  ],
+
+  "label" : "Nude"
+}

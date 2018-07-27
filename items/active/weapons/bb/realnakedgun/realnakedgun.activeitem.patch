@@ -1,0 +1,32 @@
+[
+  {
+    "op": "add",
+    "path": "/upgradeParameters",
+    "value": {
+      "inventoryIcon": "raygun_l6.png",
+      "shortdescription": "Gun of Naked ^yellow;^reset;",
+      "animationParts": {
+        "middle": "raygun_l6.png",
+        "muzzleFlash": "muzzleflash.png"
+      },
+      "primaryAbility": {
+        "projectileType": "realnakeddart2"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "upgradeableWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/animationParts/middle",
+    "value": "raygun.png"
+  },
+  {
+    "op": "replace",
+    "path": "/animationParts/muzzleFlash",
+    "value": "muzzleflash.png"
+  }
+]

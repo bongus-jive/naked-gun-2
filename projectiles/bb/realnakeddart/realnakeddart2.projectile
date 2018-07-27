@@ -1,0 +1,17 @@
+{
+  "projectileName" : "realnakeddart2",
+  "image" : "blowdart.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+  ],
+  "power" : 5.0,
+  "speed" : 100,
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "statusEffects" : [
+	"realnude2"
+  ]
+}

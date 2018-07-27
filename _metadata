@@ -1,0 +1,11 @@
+{
+  "version" : "1.0",
+  "author" : "patman + cyman (the mans.)",
+  "tags" : "Miscellaneous",
+  "description" : "patches Cyman's naked gun mod and lets you upgrade it\nupgrading it lets you steal their weapons and back items so its yes\n\nalso makes the texture a recolored ray gun instead of just a ray gun haha\n\n[url=https://discord.gg/Vaqm6yS]join this or your clothes will become mine haha[/url]",
+  "name" : "nakedgunupgrade",
+  "friendlyName" : "Naked Gun but its Upgradeable hahaj",
+  "priority" : 9999,
+  "steamContentId" : "1454561937",
+  "link" : "steam://url/CommunityFilePage/1454561937"
+}
