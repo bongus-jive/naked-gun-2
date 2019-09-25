@@ -1,5 +1,5 @@
 {
-  "projectileName" : "realnakeddart2",
+  "projectileName" : "realnakeddart",
   "image" : "blowdart.png",
   "animationCycle" : 0.2,
   "frameNumber" : 2,
@@ -12,7 +12,7 @@
   "damageKind" : "default",
   "damageTeam" : { "type" : "indiscriminate" },
   "statusEffects" : [
-	"realnude2"
+	"realnude"
   ],
 	"fullbright" : true,
 	"lightColor" : [36, 106, 120]
