@@ -10,7 +10,9 @@
         "muzzleFlash": "muzzleflash.png"
       },
       "primaryAbility": {
-        "projectileType": "realnakeddart2"
+        "projectileParameters" : {
+					"statusEffects" : ["pat_nakedgun2"]
+				}
       }
     }
   },

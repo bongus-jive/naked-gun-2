@@ -1,19 +1,13 @@
 {
   "projectileName" : "realnakeddart2",
   "image" : "blowdart.png",
-  "animationCycle" : 0.2,
-  "frameNumber" : 2,
-  "damageKindImage" : "icon.png",
-  "pointLight" : false,
-  "actionOnReap" : [
-  ],
-  "power" : 5.0,
-  "speed" : 100,
-  "damageKind" : "default",
-  "damageTeam" : { "type" : "indiscriminate" },
-  "statusEffects" : [
-	"realnude2"
-  ],
 	"fullbright" : true,
-	"lightColor" : [36, 106, 120]
+  "frameNumber" : 2,
+  "animationCycle" : 0.2,
+  "power" : 0,
+  "speed" : 100,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "statusEffects" : ["pat_nakedgun2"],
+	"lightColor" : [36, 106, 120],
+  "pointLight" : false
 }

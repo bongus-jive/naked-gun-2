@@ -1,0 +1,16 @@
+[
+	{
+		"op" : "replace",
+		"path" : "/scripts/0",
+		"value" : "pat_nakedgun.lua"
+	},
+	{
+		"op" : "add",
+		"path" : "/effectConfig/clothes",
+		"value" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic"]
+	},
+	{
+		"op" : "remove",
+		"path" : "/label"
+	}
+]

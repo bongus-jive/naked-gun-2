@@ -1,0 +1,5 @@
+[{
+	"op" : "add",
+	"path" : "/genericScriptContexts/pat_nakedgun",
+	"value" : "/scripts/bb/pat_nakedgunplayer.lua"
+}]
