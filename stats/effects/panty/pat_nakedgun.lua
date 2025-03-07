@@ -1,22 +1,31 @@
 function init()
-	local clothes = effect.getParameter("clothes", {})
-	
-	local eid = entity.id()
-	local etype = world.entityType(eid)
-	
-	if eid ~= effect.sourceEntity() then
-		if etype == "npc" then
-			for _,c in ipairs(clothes) do
-				local item = world.callScriptedEntity(eid, "npc.getItemSlot", c)
-				if item then
-					world.callScriptedEntity(eid, "npc.setItemSlot", c, "")
-					world.spawnItem(item, mcontroller.position())
-				end
-			end
-		elseif etype == "player" then
-			world.sendEntityMessage(eid, "pat_nakedgun_player", clothes)
-		end
-	end
-	
-	effect.expire()
+  effect.expire()
+
+  local entityId = entity.id()
+  if entityId == effect.sourceEntity() then return end
+
+  local entityType = world.entityType(entityId)
+  local slots = effect.getParameter("clothes", {})
+
+  if entityType == "player" then
+    world.sendEntityMessage(entityId, "pat_nakedgun_player", slots)
+  elseif entityType == "npc" then
+    npcNaked(entityId, slots)
+  end
+end
+
+function npcNaked(entityId, slots)
+  local function call(...)
+    return world.callScriptedEntity(entityId, ...)
+  end
+
+  local position = mcontroller.position()
+
+  for _, slot in ipairs(slots) do
+    local item = call("npc.getItemSlot", slot)
+    if item then
+      call("npc.setItemSlot", slot, "")
+      world.spawnItem(item, position)
+    end
+  end
 end
