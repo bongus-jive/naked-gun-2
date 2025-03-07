@@ -1,13 +1,13 @@
 {
-  "projectileName" : "realnakeddart",
-  "image" : "blowdart.png",
-	"fullbright" : true,
-  "frameNumber" : 2,
-  "animationCycle" : 0.2,
-  "power" : 0,
-  "speed" : 100,
-  "damageTeam" : { "type" : "indiscriminate" },
-  "statusEffects" : ["realnude"],
-	"lightColor" : [36, 106, 120],
-  "pointLight" : false
+  "projectileName": "realnakeddart",
+  "image": "blowdart.png",
+  "fullbright": true,
+  "frameNumber": 2,
+  "animationCycle": 0.2,
+  "power": 0,
+  "speed": 100,
+  "damageTeam": { "type": "indiscriminate" },
+  "statusEffects": [ "realnude" ],
+  "lightColor": [ 36, 106, 120 ],
+  "pointLight": false
 }

@@ -1,8 +1,8 @@
 {
-  "name" : "pat_nakedgun2",
-  "defaultDuration" : 1,
-  "scripts" : ["pat_nakedgun.lua"],
-  "effectConfig" : {
-		"clothes" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic", "primary", "alt"]
-	}
+  "name": "pat_nakedgun2",
+  "defaultDuration": 1,
+  "scripts": [ "pat_nakedgun.lua" ],
+  "effectConfig": {
+    "clothes": [ "head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic", "primary", "alt" ]
+  }
 }

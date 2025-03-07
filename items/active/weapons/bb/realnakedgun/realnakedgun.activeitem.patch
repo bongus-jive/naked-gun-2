@@ -10,9 +10,9 @@
         "muzzleFlash": "muzzleflash.png"
       },
       "primaryAbility": {
-        "projectileParameters" : {
-					"statusEffects" : ["pat_nakedgun2"]
-				}
+        "projectileParameters": {
+          "statusEffects": [ "pat_nakedgun2" ]
+        }
       }
     }
   },
