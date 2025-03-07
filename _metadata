@@ -1,11 +1,12 @@
 {
-  "version" : "1.2",
-  "author" : "patman + cyman (the mans.)",
-  "tags" : "Miscellaneous",
-  "description" : "makes cyman's naked gun good\n\nit now works on more npcs probably\nit also works on players now (lol)\nalso its recolored so its not just the vanilla ray gun texture\n\n\n[url=https://discord.gg/GdsQSgV]join this or your clothes will become mine haha[/url]",
-  "name" : "nakedgunupgrade",
-  "friendlyName" : "Naked Gun but its Good",
-  "steamContentId" : "1454561937",
+  "author" : "patman & skip",
+  "description" : "makes skip's naked gun good\n\n- it works on more npcs (probably all?)\n- it works on players (lol)\n- its Blue now. instead of just using the vanilla raygun sprites\n- you can upgrade it at the weapon upgrade anvil to steal back items & held items\n",
+  "friendlyName" : "The Naked Gun 2½",
+  "includes" : ["bb_nakedgun"],
   "link" : "steam://url/CommunityFilePage/1454561937",
-  "includes" : ["bb_nakedgun"]
+  "name" : "nakedgunupgrade",
+  "steamContentId" : "1454561937",
+  "steamDescription" : "makes skip's naked gun good\n\n- it works on more npcs (probably all?)\n- it works on players (lol)\n- its Blue now. instead of just using the vanilla raygun sprites\n- you can upgrade it at the weapon upgrade anvil to steal back items & held items\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/naked-gun-2",
+  "tags" : "Miscellaneous",
+  "version" : "1.2.1"
 }
